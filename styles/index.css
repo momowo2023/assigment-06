@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: pink;
+    height: 80%;
+    width: 100%;
+    left: 50px;
+    top: 100px;
+}
+
+.logo{
+    position: relative;
+    left: 20px;
+    top: 0;
+    line-height: 80px;
+}
+
+header a :hover{
+    text-decoration: underline;
+}
+
+header li{
+    display: inline;
+    margin-right: 4vw;
+}
+
+
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+
+section{
+    position:relative;
+}
