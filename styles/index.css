@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    height: auto;
 }
 
 header{
@@ -107,6 +109,14 @@ header ul{
     margin-top: 60px;
     margin-left: 60px;
 }
+.sign-up:hover{
+    background-color: green;
+}
+
+.btn:hover{
+    background-color: green;
+}
+
 .video{
     color: #F90;
     font-size: 16px;
@@ -117,29 +127,44 @@ header ul{
     margin-top: 72px;
     margin-left: 5px;
 }
-.tringle{
-    width: 20px;
+.fa-play{
+    width: 30px;
     height: 17px;
     margin-top: 75px;
     margin-left: 20px;
+    color: green;
 }
 .second-section{
     display: flex;
-    justify-content: space-between ;
-    flex-direction: row;
+    justify-content: space-around ;
+    align-items: flex-start; 
+    width: 100%;
+    padding: 20px; 
 }
 
-/* why second section don't seperate in two part?*/
+.second-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
 
 .second-left {
-    flex-basis: 50%; 
+    flex: 1;
     padding: 20px; 
-    
+    height: 100%;
 }
 
 .second-right {
-    flex-basis: 50%;
+    flex: 1;
     padding: 20px; 
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    margin: 20px;
+    
 }
 
 .slogen{
@@ -300,7 +325,7 @@ ul li a {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-
+}
 
 .input{
     width: 325px;
